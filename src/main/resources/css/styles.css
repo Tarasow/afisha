@@ -1,0 +1,88 @@
+body {
+  background-color: lightseagreen;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 100%;
+  max-width: 100vw;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#header {
+  background-color: lightcyan;
+  height: 4rem;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-content: space-around;
+  z-index: 1;
+}
+
+#header > div {
+  width: 25%;
+  height: 2rem;
+  padding: 1rem;
+  font-size: 1.25rem;
+  display: inline-block;
+  text-align: center;
+}
+
+#header > div:hover > a {
+  color: lightcoral;
+}
+
+.action-choice {
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: lightseagreen;
+}
+
+.main-block {
+  min-width: 30%;
+  max-width: 30%;
+  overflow: hidden;
+  height: 70%;
+  display: inline-block;
+  background-color: lightblue;
+  text-align: center;
+  border: 1rem black;
+}
+
+.random-header {
+  font-size: 2rem;
+  color: lightcoral;
+}
+
+.item-name {
+  font-size: 2rem;
+  font-style: bold;
+  color: black;
+}
+
+.secondary-info {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+.page-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  max-width: 100%;
+  padding-top: 5rem;
+}
+
+.page-item {
+  width: calc(100% - 2rem);
+  overflow: hidden;
+  height: 100%;
+  background-color: lightblue;
+  margin: 1rem;
+  text-align: center;
+}
